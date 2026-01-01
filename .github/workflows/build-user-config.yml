@@ -23,6 +23,7 @@ on:
         default: "firmware"
         required: false
         type: string
+  workflow_dispatch:
 
 jobs:
   matrix:
