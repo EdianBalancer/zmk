@@ -30,6 +30,8 @@ jobs:
       matrix:
         include: ${{ fromJSON(needs.compile-matrix.outputs.include-list) }}
     steps:
+      - name: Trust Docker registry
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - name: Checkout
         uses: actions/checkout@v4
         with:
