@@ -13,5 +13,6 @@ You can also come join our [ZMK Discord Server](https://zmk.dev/community/discor
 To review features, check out the [feature overview](https://zmk.dev/docs/). ZMK is under active development, and new features are listed with the [enhancement label](https://github.com/zmkfirmware/zmk/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) in GitHub. Please feel free to add 👍 to the issue description of any requests to upvote the feature.
 
 ## 修改显示设置
+
 参考：lvgl显示库符号库：https://docs.lvgl.io/master/main-modules/fonts/overview.html#symbols
 本程序相关代码位置：app/src/display/widgets/output_status.c
