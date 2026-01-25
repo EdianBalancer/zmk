@@ -74,7 +74,7 @@ lv_obj_t *zmk_display_status_screen() {
 #if IS_ENABLED(CONFIG_ZMK_WIDGET_INDICATORS_STATUS)
     zmk_widget_hid_indicators_status_init(&indicators_status_widget, screen);
     lv_obj_align(zmk_widget_hid_indicators_status_obj(&indicators_status_widget),
-                 LV_ALIGN_BOTTOM_RIGH, 0, 0);
+                 LV_ALIGN_BOTTOM_RIGHT, 0, 0);
 #endif
 
     return screen;
