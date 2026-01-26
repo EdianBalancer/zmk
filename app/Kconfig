@@ -39,15 +39,15 @@ config BT_DIS_MANUF
 
 # Hardware specific overrides
 
-if SOC_SERIES_NRF52X
+# if SOC_SERIES_NRF52X
 
-""" Zephyr v3.6.0已弃用NRF_STORE_REBOOT_TYPE_GPREGRET
-# Default on for our usage until boards implement retained bootmode.
-config NRF_STORE_REBOOT_TYPE_GPREGRET
-    bool
-    default y """
+# """ Zephyr v3.6.0已弃用NRF_STORE_REBOOT_TYPE_GPREGRET
+# # Default on for our usage until boards implement retained bootmode.
+# config NRF_STORE_REBOOT_TYPE_GPREGRET
+#     bool
+#     default y """
 
-endif # SOC_SERIES_NRF52X
+# endif # SOC_SERIES_NRF52X
 
 menu "HID"
 
